@@ -6,7 +6,7 @@
         <ul class="slides">
 
             <? foreach ($arResult['IMAGES'] as $key => $slid) { ?>
-                <? if ($key > 4) break; // èáî íåêðàñèâî áóäåò âûâîäèòü áîëüøå â òàêèõ ôîðìàòàõ?>
+                <? if ($key > 4) break; // Ð¸Ð±Ð¾ Ð½ÐµÐºÑ€Ð°ÑÐ¸Ð²Ð¾ Ð±ÑƒÐ´ÐµÑ‚ Ð²Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ÑŒ Ð±Ð¾Ð»ÑŒÑˆÐµ Ð² Ñ‚Ð°ÐºÐ¸Ñ… Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ð°Ñ…?>
                 <? $url = $slid->getDetailImageThumb(array('width' => 1060, 'height' => 476, 'type' => 'put')); ?>
                 <li data-thumb="<?= $url ?>">
                     <img src="<?= $url ?>" alt="<?= $slid->NAME; ?>"/>

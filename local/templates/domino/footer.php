@@ -31,34 +31,25 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col_1_of_4 span_1_of_4">
-                    <h3>Navigate</h3>
-                    <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="services.html">Blog</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col_1_of_4 span_1_of_4">
-                    <h3>Location</h3>
-                    <ul>
-                        <li>Neque porro quisquam,</li>
-                        <li>dolor sit amet,</li>
-                        <li>USA.</li>
-                        <li><span>E-mail :</span> www.yourcompany@gmail.com</li>
-                        <li><span>Telephone :</span> +00 000 00000</li>
-                        <li><span>Fax :</span> +00 000 00000</li>
-                    </ul>
-                </div>
+                <? $APPLICATION->IncludeComponent(
+                    'bitrix:menu',
+                    'footer',
+                    array(
+                        'ROOT_MENU_TYPE' => 'top',
+                        'CHILD_MENU_TYPE' => 'sub',
+                        'USE_EXT' => 'Y',
+                        'MAX_LEVEL' => 1,
+                        'MENU_CACHE_TYPE' => 'A',
+                        'MENU_CACHE_TIME' => COMPONENTS_CACHE_TTL,
+                    )
+                ); ?>
+                <? $APPLICATION->IncludeComponent('sitedevelopment:contacts','footer')?>
             </div>
         </div>
     </div>
     <div class="copy_right">
         <div class="wrap">
-            <p>Compant Name © All Rights Reseverd | Design by  <a href="http://w3layouts.com">W3Layouts</a></p>
+            <p> Мебельный Центр Домино | Сайт создан  <a href="http://w3layouts.com">Site Development Sevastopol</a></p>
         </div>
     </div>
 </div>

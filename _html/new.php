@@ -76,7 +76,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div>
 <div class="wrap">
     <div class="main">
-        <div class="content">
+        <div class="content" style="padding: 0px;">
             <div class="news-header">
                 <h2>Новость 1</h2>
             </div>

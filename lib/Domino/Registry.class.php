@@ -18,11 +18,11 @@ class Registry extends \BitrixHelperLib\Classes\Registry
     static protected $collections;
     static protected $productsCollectionMap;
 
-    static function getItemsFlagsIds($iblockId = IBLOCK_CATALOG)
+    static function getItemsFlagsIds($code, $iblockId = IBLOCK_CATALOG)
     {
         $flagsIds = array();
 
-        $flagsDb = \CIBlockPropertyEnum::GetList(array('id' => 'asc'), array('IBLOCK_ID' => $iblockId, 'CODE' => 'FLAGS'));
+        $flagsDb = \CIBlockPropertyEnum::GetList(array('id' => 'asc'), array('IBLOCK_ID' => $iblockId, 'CODE' => $code));
         while ($flags = $flagsDb->GetNext()) {
             $flagsIds[$flags['XML_ID']] = $flags['ID'];
         }
