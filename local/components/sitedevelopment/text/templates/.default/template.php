@@ -1,0 +1,1 @@
+<? if($arResult['ITEM']) echo $arResult['ITEM']->getPropText('TEXT') ?>

@@ -1,0 +1,600 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Контакты ТЦ Домино");
+?><p>
+ <br>
+ <br>
+	 Информация&nbsp;для&nbsp;раздела&nbsp;"Стоимость&nbsp;услуг":
+</p>
+<p>
+	 Цены кадрового&nbsp;агентства&nbsp;&nbsp;могут&nbsp;быть&nbsp;вполне&nbsp;приемлемы,&nbsp;если&nbsp;вы&nbsp;обратитесь&nbsp;в&nbsp;кадрово-правовое&nbsp;“Глабар”.&nbsp;Компания&nbsp;«Глабар&nbsp;готова&nbsp;прямо&nbsp;сейчас&nbsp;заняться&nbsp;поиском&nbsp;и&nbsp;подбором&nbsp;квалифицированного&nbsp;опытного&nbsp;персонала&nbsp;для&nbsp;вашего&nbsp;предприятия.
+</p>
+<p>
+	 Наша&nbsp;компания&nbsp;осуществляет&nbsp;грамотный&nbsp;и&nbsp;тщательный&nbsp;поиск&nbsp;персонала&nbsp;на&nbsp;разные&nbsp;вакансии.<br>
+	 Кроме&nbsp;того,&nbsp;наши&nbsp;специалисты&nbsp;консультируют&nbsp;клиентов&nbsp;по&nbsp;вопросам&nbsp;&nbsp;трудового&nbsp;законодательства,&nbsp;помогают&nbsp;заказчикам&nbsp;решать&nbsp;трудные&nbsp;вопросы&nbsp;кадрового&nbsp;делопроизводства&nbsp;и&nbsp;документооборота.<br>
+	 А&nbsp;если&nbsp;Вам&nbsp;нужно&nbsp;изменить&nbsp;работу&nbsp;персонала&nbsp;в&nbsp;лучшую&nbsp;сторону&nbsp;-&nbsp;мы&nbsp;продумаем&nbsp;для&nbsp;вас&nbsp;индивидуальный&nbsp;проект,&nbsp;решающий&nbsp;такую&nbsp;задачу.
+</p>
+<p>
+	 Теперь&nbsp;нет&nbsp;необходимости&nbsp;создавать&nbsp;HR&nbsp;отдел.&nbsp;Все,&nbsp;что&nbsp;связано&nbsp;с&nbsp;персоналом&nbsp;и&nbsp;его&nbsp;работой,&nbsp;мы&nbsp;возьмем&nbsp;на&nbsp;себя.&nbsp;Кадры&nbsp;решают&nbsp;всё,&nbsp;а&nbsp;мы&nbsp;решаем&nbsp;все&nbsp;кадровые&nbsp;вопросы!&nbsp;
+</p>
+<p>
+</p>
+<p>
+	 Как&nbsp;формируется&nbsp;стоимость&nbsp;услуг&nbsp;по&nbsp;поиску&nbsp;и&nbsp;подбору&nbsp;персонала&nbsp;и&nbsp;что&nbsp;не&nbsp;неё&nbsp;влияет:
+</p>
+<p>
+	 Наша&nbsp;компания,&nbsp;при&nbsp;формировании&nbsp;цены,&nbsp;не&nbsp;всегда&nbsp;берёт&nbsp;за&nbsp;основу&nbsp;зарплату&nbsp;кандидата.&nbsp;При&nbsp;обработке&nbsp;заказа,&nbsp;учитывается&nbsp;так&nbsp;же&nbsp;сложность&nbsp;подбора&nbsp;необходимого&nbsp;специалиста,&nbsp;а&nbsp;именно,&nbsp;следующие&nbsp;факторы:
+</p>
+<p>
+	 1. Узкопрофильность&nbsp;(найм&nbsp;специалиста&nbsp;из&nbsp;конкретных&nbsp;компаний&nbsp;либо&nbsp;длительный&nbsp;опыт&nbsp;специалиста&nbsp;в&nbsp;рамках&nbsp;одного&nbsp;сегмента&nbsp;рынка)
+</p>
+<p>
+	 2. Наличие&nbsp;специалистов&nbsp;на&nbsp;рынке&nbsp;(чем&nbsp;меньше&nbsp;необходимых&nbsp;специалистов,&nbsp;&nbsp;тем&nbsp;выше&nbsp;стоимость)
+</p>
+<p>
+	 3. Имидж&nbsp;компании&nbsp;(наличие&nbsp;негативных\позитивных&nbsp;отзывов&nbsp;от&nbsp;бывших&nbsp;сотрудников&nbsp;и&nbsp;имидж&nbsp;компании&nbsp;в&nbsp;целом)
+</p>
+<p>
+	 4. Местоположение&nbsp;офиса&nbsp;(удобная&nbsp;транспортная&nbsp;развязка)
+</p>
+<p>
+	 5. Социальные&nbsp;гарантии&nbsp;(оформление,&nbsp;соблюдение&nbsp;КЗоТ,&nbsp;соц.&nbsp;пакет&nbsp;и&nbsp;др.)
+</p>
+<p>
+	 6. График&nbsp;работы&nbsp;и&nbsp;ЗП&nbsp;(чем&nbsp;ниже&nbsp;ЗП&nbsp;кандидата&nbsp;от&nbsp;среднерыночной,&nbsp;тем&nbsp;сложнее&nbsp;и&nbsp;дороже&nbsp;подобрать&nbsp;специалиста)
+</p>
+<p>
+	 7. Четкость&nbsp;в&nbsp;постановке&nbsp;задач&nbsp;и&nbsp;понимание&nbsp;критериев&nbsp;отбора.
+</p>
+<p>
+	 8. Объем&nbsp;заказа&nbsp;(чем&nbsp;больше&nbsp;вакансий,&nbsp;&nbsp;тем&nbsp;ниже&nbsp;стоимость)
+</p>
+<p>
+	 9. Эксклюзив&nbsp;(при&nbsp;эксклюзивном&nbsp;подборе&nbsp;персонала&nbsp;через&nbsp;нашу&nbsp;компанию&nbsp;стоимость&nbsp;снижается)
+</p>
+<p>
+	 10. Заказ&nbsp;комплекса&nbsp;нескольких&nbsp;услуг&nbsp;(рекрутинг&nbsp;+&nbsp;охрана&nbsp;труда,&nbsp;рекрутинг&nbsp;+&nbsp;психодиагностика,&nbsp;рекрутинг&nbsp;+&nbsp;охрана&nbsp;труда&nbsp;+&nbsp;психодиагностика&nbsp;—&nbsp;значительно&nbsp;снижает&nbsp;стоимость)
+</p>
+<p>
+	 Далее&nbsp;можно&nbsp;вставить&nbsp;таблицу&nbsp;с&nbsp;стоимостью&nbsp;на&nbsp;услуги&nbsp;(только&nbsp;цвет&nbsp;в&nbsp;таблице&nbsp;нужно&nbsp;поменять&nbsp;с&nbsp;зеленого&nbsp;и&nbsp;серого&nbsp;на&nbsp;беж,&nbsp;как&nbsp;на&nbsp;сайте&nbsp;цвета,&nbsp;чтобы&nbsp;гармонировали):
+</p>
+<p>
+</p>
+<p>
+	 Стоимость&nbsp;других&nbsp;услуг&nbsp;кадрово-правового&nbsp;агентства&nbsp;«ГлаБар»*<br>
+ <br>
+ <br>
+	 Услуги&nbsp;для&nbsp;работодателей:
+</p>
+<table>
+<tbody>
+<tr>
+	<td>
+		<p>
+			 Подбор&nbsp;персонала&nbsp;
+		</p>
+	</td>
+	<td>
+		<p>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Подбор&nbsp;квалифицированных&nbsp;специалистов
+		</p>
+	</td>
+	<td>
+		<p>
+			 7-12%&nbsp;годового&nbsp;дохода&nbsp;специалиста
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Executive&nbsp;search&nbsp;–&nbsp;подбор&nbsp;элитного&nbsp;персонала:&nbsp;руководителей&nbsp;высшего&nbsp;и&nbsp;среднего&nbsp;звена&nbsp;и&nbsp;редчайших&nbsp;специалистов
+		</p>
+	</td>
+	<td>
+		<p>
+			 10-18%&nbsp;годового&nbsp;дохода&nbsp;специалиста
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Массовый&nbsp;подбор&nbsp;–&nbsp;проект&nbsp;по&nbsp;закрытию&nbsp;большого&nbsp;количества&nbsp;однотипных&nbsp;вакансий,&nbsp;в&nbsp;сжатые&nbsp;сроки.
+		</p>
+	</td>
+	<td>
+		<p>
+			 договорная
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Абонентское&nbsp;обслуживание&nbsp;по&nbsp;подбору&nbsp;персонала -&nbsp;постоянное&nbsp;сопровождение&nbsp;компании&nbsp;по&nbsp;вопросам&nbsp;подбора&nbsp;персонала
+		</p>
+	</td>
+	<td>
+		<p>
+			 договорная
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Кадровое&nbsp;делопроизводство
+		</p>
+	</td>
+	<td>
+		<p>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Аудит&nbsp;кадрового&nbsp;документооборота/кадровый&nbsp;аудит
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;1000&nbsp;руб.
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Ведение&nbsp;кадрового&nbsp;делопроизводства/&nbsp;аутсорсинг&nbsp;кадрового&nbsp;делопроизводства&nbsp;-&nbsp;специалист&nbsp;нашей&nbsp;компании&nbsp;оформляет&nbsp;всю&nbsp;необходимую&nbsp;кадровую&nbsp;документацию&nbsp;клиента.&nbsp;Мы&nbsp;берем&nbsp;на&nbsp;себя&nbsp;все&nbsp;риски,&nbsp;включая&nbsp;выплату&nbsp;штрафных&nbsp;санкций
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;400&nbsp;руб.
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Восстановление&nbsp;кадровой&nbsp;документации
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;1500&nbsp;руб.
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+		</p>
+	</td>
+	<td>
+		<p>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Постановка&nbsp;кадрового&nbsp;делопроизводства&nbsp;«с&nbsp;нуля»
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;2000&nbsp;руб.
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+		</p>
+	</td>
+	<td>
+		<p>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Разработка&nbsp;и&nbsp;адаптация&nbsp;ОБЯЗАТЕЛЬНЫХ&nbsp;форм&nbsp;локальных&nbsp;нормативных&nbsp;актов&nbsp;(положения,&nbsp;регламенты&nbsp;и&nbsp;правила&nbsp;по&nbsp;кадровому&nbsp;делопроизводству)
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;1500&nbsp;руб.
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 HR-консалтинг&nbsp;-&nbsp;мы&nbsp;разрабатываем&nbsp;и&nbsp;внедряем&nbsp;следующие&nbsp;HR-направления:
+		</p>
+	</td>
+	<td>
+		<p>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Построение&nbsp;организационной&nbsp;структуры&nbsp;компании
+		</p>
+	</td>
+	<td>
+		<p>
+			 договорная
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Внедрение&nbsp;системы&nbsp;оплаты&nbsp;труда&nbsp;и&nbsp;компенсаций
+		</p>
+	</td>
+	<td>
+		<p>
+			 договорная
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Разработка&nbsp;и&nbsp;внедрение&nbsp;системы&nbsp;оценки&nbsp;(аттестации)&nbsp;персонала
+		</p>
+	</td>
+	<td>
+		<p>
+			 договорная
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+		</p>
+	</td>
+	<td>
+		<p>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Разработка&nbsp;и&nbsp;реализация&nbsp;корпоративных&nbsp;HR-проектов
+		</p>
+	</td>
+	<td>
+		<p>
+			 договорная
+		</p>
+	</td>
+</tr>
+</tbody>
+</table>
+<p>
+ <br>
+ <br>
+	 Юридические&nbsp;услуги:
+</p>
+<table align="center">
+<tbody>
+<tr>
+	<td>
+		<p>
+			 Услуги
+		</p>
+	</td>
+	<td>
+		<p>
+			 Стоимость&nbsp;услуг&nbsp;агентства
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Регистрация&nbsp;ООО,&nbsp;под&nbsp;ключ&nbsp;(фонды+счет)
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;8000&nbsp;рублей,&nbsp;в&nbsp;т.ч.&nbsp;&nbsp;печать&nbsp;(автомат)
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Регистрация&nbsp;ООО&nbsp;(только&nbsp;подготовка&nbsp;комплекта&nbsp;документов)
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;3000&nbsp;рублей
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Регистрация&nbsp;ИП,&nbsp;под&nbsp;ключ&nbsp;(фонды+счет)
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;3000&nbsp;рублей,&nbsp;в&nbsp;т.ч.&nbsp;&nbsp;печать&nbsp;(автомат)
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Регистрация&nbsp;ИП&nbsp;(комплект&nbsp;документов)
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;1000&nbsp;рублей
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Внесение&nbsp;изменений&nbsp;в&nbsp;учредительные&nbsp;документы
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;5000&nbsp;рублей
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Консультации&nbsp;по&nbsp;вопросам&nbsp;кадрового&nbsp;делопроизводства
+		</p>
+	</td>
+	<td>
+		<p>
+			 договорная
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Исковые&nbsp;заявления,&nbsp;аппеляционные,&nbsp;кассационные&nbsp;жалобы,&nbsp;отзывы
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;2500&nbsp;рублей
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Подготовка&nbsp;договора&nbsp;купли-продажи,&nbsp;мены,&nbsp;дарения&nbsp;имущества
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;2000&nbsp;рублей
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Консультации&nbsp;по&nbsp;вопросам&nbsp;трудового&nbsp;законодательства
+		</p>
+	</td>
+	<td>
+		<p>
+			 договорная
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Представление&nbsp;интересов&nbsp;в&nbsp;судах&nbsp;всех&nbsp;инстанций&nbsp;и&nbsp;уровней&nbsp;по&nbsp;гражданским&nbsp;делам&nbsp;и&nbsp;трудовым&nbsp;спорам
+		</p>
+	</td>
+	<td>
+		<p>
+			 договорная
+		</p>
+	</td>
+</tr>
+</tbody>
+</table>
+<p>
+ <br>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Услуги&nbsp;для&nbsp;соискателей:
+</p>
+<table align="center">
+<tbody>
+<tr>
+	<td>
+		<p>
+			 Услуга
+		</p>
+	</td>
+	<td>
+		<p>
+			 Стоимость
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Трудоустройство&nbsp;по&nbsp;заявкам&nbsp;организаций&nbsp;на&nbsp;вакантные&nbsp;места
+		</p>
+	</td>
+	<td>
+		<p>
+			 Бесплатно
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Составление&nbsp;конкурентного&nbsp;резюме
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;500&nbsp;руб.
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Размещение&nbsp;резюме&nbsp;на&nbsp;сайтах:&nbsp;SuperJob,&nbsp;Hh&nbsp;(платный&nbsp;блок)&nbsp;и&nbsp;ежедневное&nbsp;обновление&nbsp;в&nbsp;течении&nbsp;1&nbsp;месяца
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;1000&nbsp;руб.
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Трудоустройство&nbsp;по&nbsp;заявкам&nbsp;частных&nbsp;лиц
+		</p>
+	</td>
+	<td>
+		<p>
+			 Бесплатно
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Трудоустройство&nbsp;по&nbsp;заявкам&nbsp;частных&nbsp;лиц&nbsp;срочное
+		</p>
+	</td>
+	<td>
+		<p>
+			 50%&nbsp;от&nbsp;месячной&nbsp;заработной&nbsp;платы&nbsp;сотрудника
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Анкетирование&nbsp;кандидатов&nbsp;на&nbsp;вакансии&nbsp;«Домашний&nbsp;персонал»
+		</p>
+	</td>
+	<td>
+		<p>
+			 бесплатно
+		</p>
+	</td>
+</tr>
+</tbody>
+</table>
+<p>
+	 Психологические&nbsp;услуги:
+</p>
+<table align="center">
+<tbody>
+<tr>
+	<td>
+		<p>
+			 Консультации
+		</p>
+	</td>
+	<td>
+		<p>
+			 Стоимость
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Консультации&nbsp;по&nbsp;интересующим&nbsp;вопросам&nbsp;(без&nbsp;письменного&nbsp;заключения)
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;1500&nbsp;руб./час
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Консультации&nbsp;(с&nbsp;диагностикой,&nbsp;тестированием,&nbsp;письменным&nbsp;заключением)
+		</p>
+	</td>
+	<td>
+		<p>
+			 от&nbsp;2000&nbsp;руб./час
+		</p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+			 Психодиагностические&nbsp;исследования&nbsp;персонала
+		</p>
+	</td>
+	<td>
+		<p>
+			 договорная
+		</p>
+	</td>
+</tr>
+</tbody>
+</table>
+<p>
+</p>
+<p>
+	 -&nbsp;Полная&nbsp;оплата&nbsp;услуг&nbsp;агентства&nbsp;производится&nbsp;по&nbsp;факту&nbsp;выхода&nbsp;персонала&nbsp;на&nbsp;работу.&nbsp;Предоставляется&nbsp;гибкая&nbsp;система&nbsp;скидок.
+</p>
+<p>
+	 -&nbsp;Стоимость&nbsp;услуг&nbsp;при&nbsp;массовом&nbsp;подборе&nbsp;всегда&nbsp;рассчитывается&nbsp;индивидуально.
+</p>
+<p>
+	 -&nbsp;Так&nbsp;же&nbsp;возможно&nbsp;заключение&nbsp;договора&nbsp;на&nbsp;абонентское&nbsp;обслуживание&nbsp;с&nbsp;фиксированной&nbsp;ежемесячной&nbsp;оплатой.
+</p>
+<p>
+	 -&nbsp;Все&nbsp;дополнительные&nbsp;услуги&nbsp;оплачиваются&nbsp;отдельно.
+</p>
+<p>
+ <br>
+	 *Указанная&nbsp;стоимость&nbsp;услуг&nbsp;является&nbsp;ориентировочной&nbsp;и&nbsp;не&nbsp;является&nbsp;публичной&nbsp;офертой,&nbsp;у&nbsp;нас&nbsp;индивидуальный&nbsp;подход&nbsp;к&nbsp;каждому&nbsp;клиенту
+</p>
+<p>
+	 &nbsp;
+</p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
