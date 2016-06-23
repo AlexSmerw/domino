@@ -10,6 +10,7 @@ define('IBLOCK_SHOPS', 5);
 define('IBLOCK_CONTACTS', 6);
 define('IBLOCK_RENT', 7);
 define('IBLOCK_FORM_RENT', 8);
+define('IBLOCK_FORM_FEEDBACK', 10);
 
 \CModule::IncludeModule('main');
 

@@ -5,6 +5,7 @@ $APPLICATION->SetTitle('О нас');
 <html lang="ru">
 <head>
     <title><? $APPLICATION->ShowTitle(); ?> — ТЦ Домино</title>
+<meta name='yandex-verification' content='5cd24cca70357f3a' />
     <? $APPLICATION->ShowMeta('keywords'); ?>
     <? $APPLICATION->ShowMeta('description'); ?>
     <? //$APPLICATION->ShowHead() ?>
@@ -16,33 +17,34 @@ $APPLICATION->SetTitle('О нас');
     <link href='http://fonts.googleapis.com/css?family=Milonga' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/web/css/examples.css" type="text/css" media="all"/>
-    <script src="/web/js/jquery-1.8.1.min.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
     <!-- FlexSlider -->
     <script defer src="/web/js/jquery.flexslider.js"></script>
-    <? if ($GLOBALS['APPLICATION']->GetCurDir() == '/news/' || $GLOBALS['APPLICATION']->GetCurDir() == '/shops_list/') { ?>
+    <? if (strpos($GLOBALS['APPLICATION']->GetCurDir(), 'news') !== false || strpos($GLOBALS['APPLICATION']->GetCurDir(), 'shops_list') !== false) { ?>
         <script defer src="/web/js/dinamicLoadArticle.js"></script>
         <script type="text/javascript">
             <?php
-            switch($GLOBALS['APPLICATION']->GetCurDir()){
-             case '/news/' :
+				if(strpos($GLOBALS['APPLICATION']->GetCurDir(), 'news') !== false){
                  $ajaxSendTo = '/ajax/getNews.php';
-                 break;
-             case '/shops_list/':
+				}
+			if(strpos($GLOBALS['APPLICATION']->GetCurDir(), 'shops_list') !== false){
               $ajaxSendTo = '/ajax/shops.php';
-                 break;
-             default:
-                 break;
             }
             ?>
             ajaxSendPage = "<?=$ajaxSendTo?>";
         </script>
+	<link rel="stylesheet" href="/web/css/sol.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script type="text/javascript" src="/web/js/sol.js"></script>
     <? } ?>
     <? if ($GLOBALS['APPLICATION']->GetCurDir() == '/rent/'){ ?>
         <script src="/web/js/jquery-ui/jquery-ui.js"></script>
         <script src="/web/js/popup/jquery.popupoverlay.js"></script>
-    <?} else {?>
-        <script type="text/javascript" src="/web/js/jquery-1.10.1.min.js"></script>
-    <?}?>
+    <?} ?>
+
     <? if (isIndex()) { ?>
         <script type="text/javascript">
             $(function () {

@@ -1,6 +1,7 @@
 <?
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
 $APPLICATION->SetTitle('Мебельный Центр Домино');
+$APPLICATION->SetPageProperty('description', 'Мебельный Торговый Центр Домино в Севастополе. Аренда помещений под мебельный магазин. Продажа мебели, ковров, фурнитуры в Севастополе. Все мебельные магазины в Севастополе под одной крышей.');
 ?>
 
 
@@ -19,7 +20,7 @@ $APPLICATION->SetTitle('Мебельный Центр Домино');
                 </div>
             </div>
 
-           <? $APPLICATION->IncludeComponent('sitedevelopment:news','MAIN')?>
+           <? $APPLICATION->IncludeComponent('sitedevelopment:news','main')?>
         </div>
 
     </div>

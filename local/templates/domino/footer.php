@@ -5,28 +5,29 @@
         <div class="footer_grides">
             <div class="section group">
                 <div class="col_1_of_4 span_1_of_4">
-                    <h3>Latest Tweets</h3>
+                    <h3>Мы</h3>
                     <div class="post">
-                        <p><span><a href="#">Tuesday,June 31th,2013</a></span></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,Ut enim ad minim veniam sed do <span><a href="#">[...]</a></span></p>
+                        <p><span><a href="/shops_list/">Крупнейший мебельный центр в Крыму</a></span></p>
+                        <p>Площадью 10 000 м2 </span></p>
                     </div>
                     <div class="post">
-                        <p><span><a href="#">Monday,May 21th,2013</a></span></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,Ut enim ad minim veniam sed do<span><a href="#">[...]</a></span></p>
+                        <p><span><a href="/shops_list/">У нас размещаются</a></span></p>
+                        <p>50 мебельных магазинов <span><a href="/shops_list/">[...]</a></span></p>
                     </div>
+
                 </div>
                 <div class="col_1_of_4 span_1_of_4">
-                    <h3>Connect With Us</h3>
+                    <h3>Соцсети</h3>
                     <div class="social_icons">
                         <ul>
                             <li><a href="#" class="facebook">
-                                    <span class="icon"> &nbsp;</span> <span class="inner"><strong>Facebook</strong> <br>+ 12, 297</span>
+                                    <span class="icon">  </span> <span class="inner"><strong>Facebook</strong> <br>+ 12, 297</span>
                                 </a></li>
                             <li><a href="#" class="twitter">
-                                    <span class="icon"> &nbsp;</span> <span class="inner"><strong>Twitter</strong> <br>+ 5, 287</span>
+                                    <span class="icon">  </span> <span class="inner"><strong>Twitter</strong> <br>+ 5, 287</span>
                                 </a></li>
                             <li><a href="#" class="rss">
-                                    <span class="icon"> &nbsp;</span> <span class="inner"><strong>Rss</strong> <br>+ 77, 287</span>
+                                    <span class="icon">  </span> <span class="inner"><strong>Rss</strong> <br>+ 77, 287</span>
                                 </a></li>
                         </ul>
                     </div>
@@ -53,5 +54,46 @@
         </div>
     </div>
 </div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter37953555 = new Ya.Metrika({
+                    id:37953555,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/37953555" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79499035-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </body>
 </html>
